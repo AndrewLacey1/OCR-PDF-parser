@@ -2,7 +2,7 @@
 This project was designed to automate the process of separating scanned PDFs by each page and renaming them as their serial number.
 ## Motivation
 My employer at the time expressed a desire to automate the process, and assigned me to do it. As this was not personal project, continued maintenance is not currently planned.
-##Process
+## Motivation
 The program begins by prompting the user with a GUI with three input fields:
 
 1-The directory to the folder with the input files
