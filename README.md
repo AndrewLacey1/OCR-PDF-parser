@@ -39,5 +39,5 @@ Pillow must be downloaded and added to the PATH variable.
 
 
 ## Benefits
-
+Before this process was implemented PDFs had to be manually separated and have their names manually enteres into a database multiple times a year. With this system it reduces the time to complete this task from a few involved hours to a simple click of a button and a run time of about 2 minutes. This runtime is mmostly comprised of running tesseract.exe.
 
