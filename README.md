@@ -3,9 +3,18 @@ This project was designed to automate the process of separating scanned PDFs by 
 ## Motivation
 My employer at the time expressed a desire to automate the process, and assigned me to do it. As this was not personal project, continued maintenance is not currently planned.
 ##Process
-The program begins by prompting the user with a GUI with two inputs fields, the directory to the spreadsheet containing
-## Libraries Used
+The program begins by prompting the user with a GUI with three input fields:
 
+1-The directory to the folder with the input files
+
+2-The directory to the spreadsheet with known serial numbers
+
+3-The directory to tesseract.exe (Yes, this could have been worked around but do to some technical issues with company computers this was deemed to be easier)
+
+Once the user fills the fields in (all fields have a built in file browser for easier location) and clicks submit the program opens each file one at a time, then runs tesseract on each page to determine the text. Once the text has been determined, an alogrithm is ran to find the serial number contained on the page. The determined serial number is then cross referenced with the spreadsheet to see if it exists, or if there is a very close match. Upon finding a suitable match the page is extracted and saved as its own PDF and name dafter its serial number. If the serial number could not be located it will be indicated in the name.
+
+*NOTE: Due to confidentiality reasons, examples of the files and serial numbers cannot be provided.
+##Libraries Used
 pdf2image - Used for conversion of pdfs to images for optical character recognition (OCR)
 PyPDF2 - Used to load in PDFs
 
