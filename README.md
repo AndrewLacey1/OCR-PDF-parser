@@ -15,7 +15,7 @@ Once the user fills the fields in (all fields have a built in file browser for e
 
 *NOTE: Due to confidentiality reasons, examples of the files and serial numbers cannot be provided.
 
-##Libraries
+## Motivation
 pdf2image - Used for conversion of pdfs to images for optical character recognition (OCR)
 PyPDF2 - Used to load in PDFs
 
