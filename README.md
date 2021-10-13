@@ -14,6 +14,7 @@ The program begins by prompting the user with a GUI with three input fields:
 Once the user fills the fields in (all fields have a built in file browser for easier location) and clicks submit the program opens each file one at a time, then runs tesseract on each page to determine the text. Once the text has been determined, an alogrithm is ran to find the serial number contained on the page. The determined serial number is then cross referenced with the spreadsheet to see if it exists, or if there is a very close match. Upon finding a suitable match the page is extracted and saved as its own PDF and name dafter its serial number. If the serial number could not be located it will be indicated in the name.
 
 *NOTE: Due to confidentiality reasons, examples of the files and serial numbers cannot be provided.
+
 ##Libraries Used
 pdf2image - Used for conversion of pdfs to images for optical character recognition (OCR)
 PyPDF2 - Used to load in PDFs
