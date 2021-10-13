@@ -2,7 +2,7 @@
 This project was designed to automate the process of separating scanned PDFs by each page and renaming them as their serial number.
 ## Motivation
 My employer at the time expressed a desire to automate the process, and assigned me to do it. As this was not personal project, continued maintenance is not currently planned.
-## Motivation
+## Process
 The program begins by prompting the user with a GUI with three input fields:
 
 1-The directory to the folder with the input files
@@ -15,7 +15,7 @@ Once the user fills the fields in (all fields have a built in file browser for e
 
 *NOTE: Due to confidentiality reasons, examples of the files and serial numbers cannot be provided.
 
-## Motivation
+## Libraries Used
 pdf2image - Used for conversion of pdfs to images for optical character recognition (OCR)
 PyPDF2 - Used to load in PDFs
 
@@ -38,6 +38,6 @@ The tesseract.exe must be downloaded onto the computer at a known location. Down
 Pillow must be downloaded and added to the PATH variable.
 
 
-## Usage
+## Benefits
 
 
