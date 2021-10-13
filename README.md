@@ -8,7 +8,7 @@ Will be added
 ## Libraries Used
 
 pdf2image - Used for conversion of pdfs to images for optical character recognition (OCR)
-PyPDF2 - Used to load in PDFs
+PyPDF2 - Used to load in PDFs \n
 openpyxl - Used to modify an existing excel spreadsheet
 difflib - Used to find close matches from the OCR
 PySimpleGUI - Used to construct a simple user interface to select various paths
